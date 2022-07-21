@@ -1784,17 +1784,15 @@ li
   position: relative;
   background-image: url("../images/faq-cat.png"), url("../images/faq-bird.png");
   background-repeat: no-repeat;
-  background-position-x: calc(50% + 480px), calc(50% + 450px);
-  background-position-y: 90px, 980px; 
-  padding-left: 157px;
-  padding-top: 118px;
-  padding-right: 900px;
+  background-position-x: calc(50% + 530px), calc(50% + 480px);
+  background-position-y: 90px, 850px; 
+  padding-top: 58px;
   padding-bottom: 250px; 
 } 
 
 .faq__content{
   width: 447px;
-  margin: 0 auto;
+  margin-left: 112px;
 }
 
 .faq__heading{
@@ -1837,8 +1835,8 @@ li
 
 .faq__info{
   width: 752px;
-  margin: 0 auto;
   margin-top: 63px;
+  margin-left: 112px;
 }
 
 .faq__details{
@@ -1852,6 +1850,11 @@ li
   border-radius: 5px;
 }
 
+.faq__summary__desc{
+  line-height: 20px;
+  color: #949494;
+}
+
 .faq__summary{
   position: relative;
   font-weight: 500;
@@ -1859,6 +1862,7 @@ li
   line-height: 22px;
   color: #333333;
   list-style: none;
+  cursor: pointer;
 }
 
 .faq__summary::after{
