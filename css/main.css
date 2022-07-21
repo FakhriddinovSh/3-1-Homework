@@ -440,19 +440,25 @@ li
 
 .hero__button:hover,
 .notify__button:hover,
-.modal__button:hover
+.modal__button:hover,
+.cards__button:hover
 {
   color: var(--main-text-color);
   background: var(--main-yellow-color);
+  transition: background 0.5s ease;
+
 }
 
 .hero__button:active,
 .notify__button:active,
-.modal__button:active
+.modal__button:active,
+.cards__button:active
 {
   color: var(--main-text-color);
   background: var(--main-yellow-color);
   opacity: 0.6;
+  transition: background 0.5s ease;
+
 }
 
 /* Hero styles ended */
@@ -1533,7 +1539,7 @@ li
 
 .service-hero__box{
   width: 447px;
-  margin-left: 105px;
+ padding-left: 105px;
 }
 
 .service-hero__heading{
@@ -1772,6 +1778,313 @@ li
   line-height: 21px;
   text-align: center;
   color: #FFFFFF;
+}
+
+.faq{
+  position: relative;
+  background-image: url("../images/faq-cat.png"), url("../images/faq-bird.png");
+  background-repeat: no-repeat;
+  background-position-x: calc(50% + 480px), calc(50% + 450px);
+  background-position-y: 90px, 980px; 
+  padding-left: 157px;
+  padding-top: 118px;
+  padding-right: 900px;
+  padding-bottom: 250px; 
+} 
+
+.faq__content{
+  width: 447px;
+  margin: 0 auto;
+}
+
+.faq__heading{
+  margin-bottom: 27px;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 64px;
+  color: #333333;
+}
+
+.faq__desc{
+  margin-bottom: 35px;
+  line-height: 20px;
+  color: #949494;
+}
+
+.faq__btn{
+  position: relative;
+  padding-top: 15px;
+  padding-right: 38px;
+  padding-bottom: 14px;
+  padding-left: 66px;
+  background: #78C0DE;
+  border-radius: 3px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+.faq__btn::before{
+  position: absolute;
+  content: "";
+  background-image: url("../images/faq__btn.svg");
+  background-repeat: no-repeat;
+  width: 21px;
+  height: 21px;
+  left: 35px;
+}
+
+.faq__info{
+  width: 752px;
+  margin: 0 auto;
+  margin-top: 63px;
+}
+
+.faq__details{
+  margin-bottom: 18px;
+  padding-top: 28px;
+  padding-left: 63px;
+  padding-right: 75px;
+  padding-bottom: 32px;
+  background: #FFFFFF;
+  border: 1px solid #F3F3F3;
+  border-radius: 5px;
+}
+
+.faq__summary{
+  position: relative;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 22px;
+  color: #333333;
+  list-style: none;
+}
+
+.faq__summary::after{
+  position: absolute;
+  content: "";
+  background-image: url("../images/sumary__desc.svg");
+  background-repeat: no-repeat;
+  width: 15px;
+  height: 16px;
+  top: 40px;
+  right: -30px;
+}
+
+.faq__summary-restricted::after{
+  position: absolute;
+  content: "";
+  background-image: url("../images/clock.svg");
+  background-repeat: no-repeat;
+  width: 22px;
+  height: 26px;
+  top: 40px;
+  right: -30px;
+}
+
+.faq__details[open] .faq__summary::after{
+  transition: transform 0.5s ease;
+  transform: rotate(180deg);
+}
+
+.faq__details[open] .faq__summary-restricted::after{
+  transition: transform 0.5s ease;
+  transform: rotate(0deg);
+}
+
+.faq__top__info{
+  display: block;
+  margin-bottom: 12px;
+}
+
+.faq__time{
+  position: relative;
+  margin-bottom: 15px;
+  padding-left: 29px;
+  font-size: 14px;
+  line-height: 22px;
+  color: #333333;
+}
+
+.faq__time::before{
+  position: absolute;
+  content: "";
+  background-image: url("../images/leg.svg");
+  background-repeat: no-repeat;
+  width: 23px;
+  height: 25px;
+  left: -2px;
+}
+
+.faq__time-blue::before{
+  position: absolute;
+  content: "";
+  background-image: url("../images/leg-blue.svg");
+  background-repeat: no-repeat;
+  width: 23px;
+  height: 25px;
+  left: -2px;
+}
+
+.faq__link{
+  margin-left: 28px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 22px;
+  text-align: right;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #78C0DE;
+}
+
+.faq__details-soon{
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+
+.blog-hero{
+  padding-top: 118px;
+  padding-left: 105px;
+  padding-bottom: 132px;
+  background-image: url("../images/blog-hero.png");
+  background-repeat: no-repeat;
+  background-position: calc(50% + 330px) calc(50% + 30px);
+}
+
+.blog-hero__heading{
+  margin-bottom: 21px;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 64px;
+  color: #333333;
+}
+
+.blog-hero__box{
+  width: 447px; 
+}
+
+.blog-hero__desc{
+  line-height: 20px;
+  color: #949494;
+}
+
+.cards__image-blog{
+  background-image: url("../Images/blog-cards.jpg");
+  background-position: center;
+  background-size: 100%;
+}
+
+.cards__item--active .cards__online--blog{
+  padding-top: 68px;
+  padding-right: 110px;
+  padding-bottom: 68px;
+  padding-left: 82px;
+}
+
+.cards__list--blog{
+  padding-bottom: 126px;
+}
+
+.cards__item--active .cards__image-blog {
+  width: 558px;
+  height: 525px;
+  background-size: contain;
+}
+
+.cards--blog{
+  padding-top: 0;
+  padding-bottom: 126px;
+}
+
+.cards--list{
+  padding-top: 0;
+  padding-bottom: 150px;
+}
+
+.cards__blog__content{
+  width: 517px;
+}
+
+.cards__list--wrap{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 54px;
+}
+
+.cards__online__button--edit{
+  margin-top: 31px;
+}
+
+.cards__item--bottom{
+  margin-bottom: 60px;
+}
+
+.cards__online__heading--blog{
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 38px;
+  color: #333333;
+}
+
+.cards__blog__title{
+  width: 325px;
+  margin-top: 35px;
+  margin-bottom: 20px;
+}
+
+.cards__button-wrapper{
+  text-align: center;
+}
+
+.cards__button{
+  position: relative;
+  padding-top: 16px;
+  padding-right: 40px;
+  padding-bottom: 16px;
+  padding-left: 65px;
+  background: #333333;
+  border-radius: 3px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+.cards__button::before{
+  position: absolute;
+  content: "";
+  background-image: url("../images/cards__button_before.svg");
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  left: 35px;
+  top: 20px;
+}
+
+.cards__image-third--third{
+  background-image: url("../images/cards__image-third.jpg");
+}
+
+.cards__image-third--fourth{
+  background-image: url("../images/cards__image-fourth.jpg");
+}
+
+.cards__image-third--fifth{
+  background-image: url("../images/cards__image-fivth.jpg");
+}
+
+.cards__image-third--sixth{
+  background-image: url("../images/cards__image-sixth.jpg");
+}
+
+.cards__image-third--seventh{
+  background-image: url("../images/cards__image-seventh.jpg");
+}
+
+.cards__image-third--eigth{
+  background-image: url("../images/cards__image-eigth.jpg");
 }
 
 .modal{
