@@ -242,11 +242,12 @@ li
   cursor: pointer;
 }
 
-.site-header__datetime{
+.site-header__datetime,
+.contact-hero__datetime
+{
   position: relative;
   margin-right: 17px;
   cursor: pointer;
-  
 }
 
 .site-header__datetime::before{
@@ -2316,7 +2317,7 @@ only screen and (                min-resolution: 2dppx) {
   }
 }
  /* contact page start  */
- .contacts-s1 {
+ /* .contacts-s1 {
   position: relative;
   padding: 118px 0 130px 0;
 }
@@ -2447,5 +2448,143 @@ only screen and (                min-resolution: 2dppx) {
   background-image: url("../images/buldok.png");
   background-repeat: no-repeat;
   content: "";
-}
+} */
  /* contact page end */
+
+
+
+ /* Contact styles started */
+.contact-hero{
+  padding-top: 118px;
+  background-image: url("../images/contact-dog.png");
+  background-repeat: no-repeat;
+  background-position: calc(50% + 600px);
+  background-position-y: 100px;
+}
+
+.contact-hero__info{
+  width: 447px;
+  margin-bottom: 220px;
+}
+
+.contact-hero__title{
+  margin-bottom: 27px;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 64px;
+  color: #333333;
+}
+
+.contact-hero__desc{
+  line-height: 20px;
+  color: #949494;
+}
+
+.contact-hero__list{
+  display: flex;
+  list-style: none;
+}
+
+.contact-hero__item{
+  position: relative;
+  width: 153px;
+  margin-right: 118px;
+}
+
+.contact-hero__item::before{
+  position: absolute;
+  content: "";
+  background-image: url("../images/contact-hero__item1.svg");
+  background-repeat: no-repeat;
+  width: 76px;
+  height: 81px;
+  bottom: 100px;
+}
+
+.contact-hero__item:nth-child(2):before{
+  position: absolute;
+  content: "";
+  background-image: url("../images/contact-hero__item2.svg");
+  background-repeat: no-repeat;
+  width: 76px;
+  height: 81px;
+  bottom: 100px;
+}
+
+.contact-hero__item:nth-child(3):before{
+  position: absolute;
+  content: "";
+  background-image: url("../images/contact-hero__item3.svg");
+  background-repeat: no-repeat;
+  width: 76px;
+  height: 81px;
+  bottom: 100px;
+}
+
+.contact-hero__address{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #333333;
+  font-style: normal;
+}
+
+.contact-hero__tel__list{
+  list-style: none;
+}
+
+.contact-hero__tel__item:nth-child(2), .contact-hero__tel__item:nth-child(3){
+  margin-top: 9px;
+}
+
+.contact-hero__tel__link{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: right;
+  color: #333333;
+}
+
+
+
+/* Search content styles started */
+.search{
+  width: 1440px;
+  margin: 0 auto;
+  position: relative;
+  padding-top: 490px;
+  background-image: url("../images/search__bg.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: calc(50% + 340px) calc(50% - 150px);
+}
+
+.search::before{
+  position: absolute;
+  /* bottom: 110px; */
+  top: 355px;
+  content: "";
+  background-image: url("../images/search__dog.png");
+  background-repeat: no-repeat;
+  width: 443px;
+  height: 342px;
+  z-index: 10;
+}
+
+.search__heading  {
+  margin-bottom: 60px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 62px;
+  color: #333333;
+  text-align: center;
+}
+
+.search__content{
+  display: flex;
+  margin: 0 auto;
+}
+
+.site-footer--contact{
+  padding-top: 181px;
+}
