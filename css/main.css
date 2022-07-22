@@ -2465,6 +2465,7 @@ only screen and (                min-resolution: 2dppx) {
 .contact-hero__info{
   width: 447px;
   margin-bottom: 220px;
+  margin-left: 90px;
 }
 
 .contact-hero__title{
@@ -2483,6 +2484,7 @@ only screen and (                min-resolution: 2dppx) {
 .contact-hero__list{
   display: flex;
   list-style: none;
+  margin-left: 90px;
 }
 
 .contact-hero__item{
