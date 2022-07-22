@@ -2315,3 +2315,137 @@ only screen and (                min-resolution: 2dppx) {
     background-image: url("../images/dog-bg@2x.jpg");
   }
 }
+ /* contact page start  */
+ .contacts-s1 {
+  position: relative;
+  padding: 118px 0 130px 0;
+}
+.contacts-s1__left-box {
+  width: 447px;
+  margin-left: 105px;
+  margin-bottom: 118px;
+}
+.contacts-s1__title {
+  margin: 0 0 27px 0;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 64px;
+  color: #333333;
+}
+.contacts-s1__text {
+  margin: 0 0 35px 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+}
+.contacts-s1__left-img {
+  position: absolute;
+  top: 6%;
+  right: -19%;
+}
+.contacts-s1__left-box-bottom {
+  display: flex;
+  align-items: center;
+  margin-left: 105px;
+}
+.contacts-s1__address {
+  margin-right: 118px;
+  font-size: 16px;
+  line-height: 21px;
+  color: #333333;
+}
+.contacts-s1__address::before {
+  display: block;
+  width: 73px;
+  height: 73px;
+  margin-bottom: 30px;
+  background-image: url("../images/location.svg");
+  background-repeat: no-repeat;
+  content: "";
+}
+.contacts-s1__time-box {
+  display: flex;
+  flex-direction: column;
+  margin-right: 118px;
+}
+.contacts-s1__time-box::before {
+  display: block;
+  width: 77px;
+  height: 72px;
+  margin-bottom: 30px;
+  background-image: url("../images/calendar.svg");
+  background-repeat: no-repeat;
+  content: "";
+}
+.contacts-s1__times {
+  font-size: 16px;
+  line-height: 21px;
+  color: #333333;
+}
+.contacts-s1__big-tel-box::before {
+  display: block;
+  width: 46px;
+  height: 73px;
+  margin-bottom: 30px;
+  background-image: url("../images/faq-phone.svg");
+  background-repeat: no-repeat;
+  content: "";
+}
+.contacts-s1__tel-link {
+  font-size: 16px;
+  line-height: 21px;
+  text-decoration: none;
+  color: #333333;
+}
+.contacts-s1__tel-link:hover {
+  color: #FFBD54;
+}
+.contacts-s1__tel-link:active {
+  color: #333333;
+  opacity: 0.6;
+}
+.contacts-s2 {
+  padding: 230px 0 200px 0;
+  background-image: url("../images/pet-oyolari.png");
+  background-position: calc(50% + 125px) calc(50% + -344px);
+  background-size: 935px 330px;
+  background-repeat: no-repeat;
+}
+.contacts-s2__title {
+  position: relative;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 62px;
+  text-align: center;
+  color: #333333;
+}
+.contacts-s2__title::before {
+  position: absolute;
+  bottom: 95%;
+  left: 51%;
+  display: block;
+  width: 112px;
+  height: 113px;
+  margin: 0 auto;
+  background-image: url("../images/lupa.svg");
+  background-repeat: no-repeat;
+  content: "";
+}
+.contacts-s2__box {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.contacts-s2__box::before {
+  position: absolute;
+  top: -63%;
+  left: -1%;
+  display: block;
+  width: 443px;
+  height: 342px;
+  background-image: url("../images/buldok.png");
+  background-repeat: no-repeat;
+  content: "";
+}
+ /* contact page end */
