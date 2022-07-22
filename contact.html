@@ -11,7 +11,7 @@
     <!-- <link rel="stylesheet" href="css/min.main.css"> -->
 </head>
 
-<body class="body-bg">
+<body>
     <!-- SITE HEADER START -->
     <header class="site-header">
         <div class="site-header__top">
@@ -78,81 +78,79 @@
     </header>
     <!-- SITE HEADER END -->
 
-
     <main class="site-main">
-        <section>
+        <!-- Contact hero section started -->
+        <section class="contact-hero">
             <div class="container">
-                <div class="contacts-s1">
-                    <div class="contacts-s1__left-box">
-                        <h2 class="contacts-s1__title">
-                            Контакты
-                        </h2>
-                        <p class="contacts-s1__text">
-                            Узнать информацию о наших услугах, записаться на прием к врачу или проконсультироваться вы
-                            можете по телефону, в любое удобное для вас время.
-                        </p>
-                    </div>
-                    <img class="contacts-s1__left-img" src="./images/kardiolog-dog.png" width="672" height="568"
-                        alt="cat-picture">
-                    <div class="contacts-s1__left-box-bottom">
-                        <address class="contacts-s1__address">
-                            г. Мариуполь,
-                            <p>
-                                проспект Победы, 48а
-                            </p>
-                        </address>
-                        <div class="contacts-s1__time-box">
-                            <time class="contacts-s1__times" datetime="2000-01-01 08:00-18:00">
-                                Пн - Пт 8:00 - 18:00
-                            </time>
-                            <time class="contacts-s1__times" datetime="2000-01-01 08:00-14:00">
-                                Сб - Вс 8:00 - 14:00
-                            </time>
-                        </div>
-                        <div class="contacts-s1__big-tel-box">
-                            <ul>
-                                <li>
-                                    <a class="contacts-s1__tel-link" href="tel:0676347574">
-                                        (067) 634 -75 - 74
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="contacts-s1__tel-link" href="tel:0637570131">
-                                        (0637) 57 - 01 - 31
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="contacts-s1__tel-link" href="tel:0982664389">
-                                        (098) 266 - 43 - 89
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+                <div class="contact-hero__info">
+                    <h2 class="contact-hero__title">
+                        Контакты
+                    </h2>
+                    <p class="contact-hero__desc">
+                        Узнать информацию о наших услугах, записаться на прием к врачу или проконсультироваться вы
+                        можете по телефону, в любое удобное для вас время.
+                    </p>
                 </div>
+
+                <ul class="contact-hero__list">
+                    <li class="contact-hero__item">
+                        <a href="#">
+                            <address class="contact-hero__address">
+                                г. Мариуполь, проспект Победы, 48а
+                            </address>
+                        </a>
+                    </li>
+
+                    <li class="contact-hero__item">
+                        <div class="contact-hero__time__box">
+                            <time class="contact-hero__datetime" datetime="2022-07-18 08:00">
+                                <strong>Пн - Пт</strong>
+                                8:00 - 18:00
+                            </time>
+
+                            <time datetime="2022-07-18 08:00">
+                                <strong>Сб - Вс </strong>
+                                8:00 - 14:00
+                            </time>
+                        </div>
+                    </li>
+
+                    <li class="contact-hero__item">
+                        <ul class="contact-hero__tel__list">
+                            <li class="contact-hero__tel__item">
+                                <a class="contact-hero__tel__link" href="tel:+0676347574">(067) 634 -75 - 74</a>
+                            </li>
+                            <li class="contact-hero__tel__item">
+                                <a class="contact-hero__tel__link" href="tel:+0637570131">(0637) 57 - 01 - 31</a>
+                            </li>
+                            <li class="contact-hero__tel__item">
+                                <a class="contact-hero__tel__link" href="tel:+0982664389">(098) 266 - 43 - 89</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
             </div>
         </section>
-        <section>
-            <div class="container">
-                <div class="contacts-s2">
-                    <h2 class="contacts-s2__title">
-                        Как нас найти?
-                    </h2>
-                    <div class="contacts-s2__box">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d36549.16997533345!2d37.50745713784661!3d47.088614781566214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf89fa79873024133!2z0JzQuNGC0YDQvtC_0L7Qu9C40YIg0JjQs9C90LDRgtC40Lk!5e0!3m2!1sru!2s!4v1658400564006!5m2!1sru!2s"
-                            width="900" height="466" style="border:0;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <!-- Contact hero section ended -->
 
-                        <img src="./images/mahalakom.jpg" width="600" height="466" alt="mahalakom">
-                    </div>
+        <section class="search">
+            <div class="search__wrapper">
+                <h2 class="search__heading">Как нас найти?</h2>
+                <div class="search__content">
+                    <iframe class="search__iframe"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d173747.4654343126!2d37.44187889782016!3d47.122509611518154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40e6e6a7bee7582b%3A0xa5d118300a75b5ce!2z0JzQsNGA0LjRg9C_0L7Qu9GMLCDQlNC-0L3QtdGG0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCDQo9C60YDQsNC40L3QsCwgODc1MDA!5e0!3m2!1sru!2s!4v1658471950648!5m2!1sru!2s"
+                        width="847" height="466" style="border:0;" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                    <img class="search__image" src="./images/ssearch__home.jpg" width="593" height="466"
+                        alt="search home">
                 </div>
             </div>
         </section>
     </main>
 
     <!-- site footer start -->
-    <footer class="site-footer">
+    <footer class="site-footer site-footer--contact">
         <div class="container">
             <div class="site-footer__box footer">
 
