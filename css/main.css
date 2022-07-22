@@ -2449,3 +2449,166 @@ only screen and (                min-resolution: 2dppx) {
   content: "";
 }
  /* contact page end */
+
+ /* about us page start  */
+
+ .about-s1 {
+  position: relative;
+  padding: 118px 0 130px 0;
+  background-image: url("../images/pet-oyolari.png");
+  background-position: calc(50% + -324px) calc(50% + 90px);
+  background-size: 700px 236px;
+  background-repeat: no-repeat;
+}
+.about-s1__left-box {
+  position: relative;
+  width: 410px;
+  margin-left: 88px;
+  margin-bottom: 290px;
+}
+.about-s1__left-box::after {
+  position: absolute;
+  top: 238%;
+  left: 88%;
+  display: block;
+  width: 112px;
+  height: 113px;
+  background-image: url("../images/blue-lupa.svg");
+  background-repeat: no-repeat;
+  content: "";
+}
+.about-s1__title {
+  margin: 0 0 22px 0;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 64px;
+  color: #333333;
+}
+.about-s1__text {
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+}
+.about-s1__left-img {
+  position: absolute;
+  top: 17.5%;
+  right: 6%;
+}
+.about-s2 {
+  padding: 114px 0;
+  background-color: #fff;
+}
+.about-s2-box {
+  position: relative;
+  display: flex;
+  justify-content: end;
+}
+.about-s2__img {
+  position: absolute;
+  top: -51%;
+  left: -4.5%;
+}
+.about-s2__right-box {
+  width: 560px;
+}
+.about-s2__text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: #949494;
+}
+.about-s2__text-brown {
+  color: #FFBD54;
+}
+.about-s3 {
+  position: relative;
+  padding: 130px 0 110px 0;
+}
+.about-s3__left-box {
+  width: 495px;
+  margin: 88px;
+}
+.about-s3__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+}
+.about-s3__text-blue {
+  color: #78C0DE;
+}
+.about-s3__img {
+  position: absolute;
+  top: 13%;
+  left: 46%;
+}
+.about-s4 {
+  position: relative;
+  padding: 110px 0 150px 0;
+  display: flex;
+  justify-content: stretch;
+  align-items: center;
+}
+.about-s4__left-box {
+  width: 415px;
+  margin-right: 35px;
+  margin-left: 88px;
+}
+.about-s4__title {
+  margin: 0 0 20px 0;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 48px;
+  color: #333333;
+}
+.about-s4__title-brown-word {
+  color: #FFBD54;
+}
+.about-s4__text {
+  width: 345px;
+  margin-bottom: 100px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+}
+.about-s4__img {
+  margin-right: 20px;
+}
+.about-s4__img-last {
+  position: absolute;
+  top: 16.6%;
+  left: 89.7%;
+}
+.about-s4__left-box-bottom {
+  display: flex;
+  align-items: center;
+}
+.about-s4__left-box-bottom-icon {
+  margin-left: 65px;
+  margin-right: 85px;
+  transform: rotateZ(180deg);
+
+}
+.about-s4__left-box-bottom-back-slash {
+  position: relative;
+}
+.about-s4__left-box-bottom-back-slash::after {
+  position: absolute;
+  top: 28%;
+  left: 45%;
+  display: block;
+  width: 1px;
+  height: 40px;
+  background-color: #333333;
+  transform: rotateZ(45deg);
+  content: "";
+}
+.about-s4__left-box-bottom-number-5 {
+  margin-left: 18px;
+  color: #949494;
+}
+
+ /* about us page end */
