@@ -2753,3 +2753,220 @@ only screen and (                min-resolution: 2dppx) {
 }
 
  /* about us
+
+
+
+  /* services-open start */
+
+
+
+.about__img-box
+{
+  overflow: hidden;
+  position: relative;
+  width: 1440px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.about__img
+{
+  position: absolute;
+  top: -30px;
+}
+
+
+
+.about__inner
+{
+  padding: 42px 0 174px;
+  display: flex;
+  justify-content: end;
+}
+
+
+.about__info
+{
+  width: 640px;
+  margin-right: 140px;
+}
+
+.about__info-link
+{
+  display: flex;
+  list-style: none;
+}
+
+.about__info-item
+{
+  position: relative;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  line-height: 18px;
+  color: #949494;
+}
+
+.about__info-item:last-child
+{
+  color: #333333;
+}
+
+.about__info-item:not(:first-child)
+{
+  padding-left: 7px;
+}
+
+.about__info-item:not(:first-child)::before
+{
+  display: block;
+  content: "";
+  width: 3px;
+  height: 3px;
+  margin-right: 7px;
+  background-color:var(--main-yellow-color) ;
+  border-radius: 50%;
+}
+
+.about__info-title
+{
+  margin-top: 33px;
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 64px;
+  color: var(--main-text-color);
+}
+
+.about__info-title-orange
+{
+  color: var(--main-yellow-color);
+}
+
+.about__infotext
+{
+  margin-top: 22px;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: var(--main-grey-color);
+}
+
+.about__button-first
+{
+  margin-top: 64px;
+}
+
+.card__list
+{
+  display: block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.card__item
+{
+  margin: 0;
+}
+
+.card__item:nth-child(2)
+{
+  margin-top: 11px;
+}
+
+.about-quastions
+{
+  padding-bottom: 187px;
+}
+
+.about-quastions__bg
+{
+  background-image: url(../images/dog-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-quastions__box
+{
+  padding: 65px 0 65px 45px;
+  display: flex;
+
+}
+
+.about-quastions__inner
+{
+  width: 276px;
+  margin-right: 60px;
+}
+
+.about-quastions__inner-title
+{
+  
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 62px;
+  color: #FFFFFF;
+}
+
+.about-quastions__inner-text
+{
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+
+.about-quastions__form
+{
+  position: relative;
+}
+
+.about-quastions__form::after
+{
+  position: absolute;
+  content: "";
+  width: 811px;
+  height: 635px;
+  top: -105px;
+  right: -690px;
+  background-image: url(../images/dog.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.about-quastions__input
+{
+  border-radius: 0;
+}
+
+.about-quastions__textarea
+{
+  border-radius: 0;
+}
+
+.about-quastions__button
+{
+  background-color: var(--main-text-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
